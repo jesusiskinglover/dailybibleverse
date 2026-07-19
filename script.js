@@ -7,3 +7,6 @@
    */
   function getTodayDateString() {
       const now = new Date
+   curl --request GET \
+     --url 'https://beta.ourmanna.com/api/v1/get?format=json&order=daily' \
+     --header 'accept: application/json'
