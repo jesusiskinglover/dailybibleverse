@@ -1,0 +1,79 @@
+ /* General Reset and Body Styling */
+  body {
+      font-family: 'Georgia', serif; /* A classic, readable font for scripture */
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  /* Header Styling */
+  header {
+      background-color: #4a1c7b; /* Deep purple, spiritual feel */
+      color: white;
+      width: 100%;
+      padding: 3rem 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  header h1 {
+      margin: 0;
+      font-size: 2.5em;
+  }
+
+  header .tagline {
+      font-style: italic;
+      opacity: 0.9;
+      margin-top: 0.2em;
+  }
+
+  /* Main Content Area */
+  main {
+      background-color: white;
+      padding: 40px;
+      max-width: 800px;
+      width: 90%;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      margin: 40px auto; /* Centers the main card */
+      text-align: center;
+  }
+
+  /* Verse Styling */
+  #verse-container p {
+      font-size: 1.8em;
+      line-height: 1.6;
+      color: #2c3e50; /* Dark blue/grey for readability */
+      margin-bottom: 30px;
+  }
+
+  /* Reference Styling (Book, Chapter:Verse) */
+
+  /* Reference Styling (Book, Chapter:Verse) */
+  #verse-reference {
+      display: block;
+      text-align: right;
+      font-size: 1em;
+      color: #7f8c8d; /* Soft grey */
+      margin-top: 20px;
+  }
+
+  /* Footer Styling */
+  footer {
+      width: 100%;
+      padding: 20px 0;
+      text-align: center;
+      border-top: 1px solid #ddd;
+      background-color: #ecf0f4;
+      margin-top: auto; /* Pushes the footer down */
+  }
+
+  /* Loading/Error States */
+  #loading-message {
+      font-size: 1.5em;
+      color: #9b59b6; /* Purple for emphasis */
+  }
